@@ -31,5 +31,6 @@ resistencia de un LLM a inyección de prompts. La calidad de las síntesis, el m
 de contradicciones y la detección automática de skills requieren evaluación en el
 asistente elegido.
 
-Los workflows están incluidos, pero aún no se ejecutaron en GitHub. No se publicaron
-paquetes en PyPI ni se configuró un remoto para este repositorio.
+Las comprobaciones anteriores corresponden a la entrega local. Los resultados de
+los workflows remotos se consultan en [GitHub Actions](https://github.com/juliansantamaria0/llm-wiki/actions).
+No se publicaron paquetes en PyPI.
