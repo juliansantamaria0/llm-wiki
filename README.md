@@ -8,7 +8,7 @@ y revisa sus contradicciones conservando las fuentes originales.
 
 Este es un proyecto independiente de AgentCraft. Primera versión: **0.1.0**.
 El nombre de distribución `llm-wiki-local` es provisional; no está publicado en PyPI.
-Repositorio: [juliansantamaria0/llm-wiki](https://github.com/juliansantamaria0/llm-wiki), con acceso privado.
+Repositorio público: [juliansantamaria0/llm-wiki](https://github.com/juliansantamaria0/llm-wiki).
 
 ## Qué hace
 
@@ -67,8 +67,7 @@ El ejemplo de rueda supone que estás en la carpeta que contiene ese archivo.
 Para PDFs, al instalar desde el código usa `pipx install '.[pdf]'`, o sobre una
 instalación existente: `pipx inject llm-wiki-local 'pypdf>=6.1,<7'`.
 
-También puedes instalar directamente desde GitHub. Al ser un repositorio privado,
-Git debe estar autenticado con una cuenta que tenga permisos de lectura:
+También puedes instalar directamente desde el repositorio público de GitHub:
 
 ```console
 pipx install git+https://github.com/juliansantamaria0/llm-wiki.git
